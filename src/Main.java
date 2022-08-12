@@ -31,8 +31,8 @@ public class Main {
         //DuplicatesList
         DuplicatesList d = new DuplicatesList();
         ListNode head = new ListNode();
-        head.val = 1;
-        head.next = new ListNode(1, new ListNode(2));
+//        head.val = 1;
+//        head.next = new ListNode(1, new ListNode(2));
         d.deleteDuplicates(head);
         //--------------------------------------------
 
@@ -64,6 +64,14 @@ public class Main {
         //Stock
         Stock stock = new Stock();
         stock.maxProfit(new int[] {2,4,1});
+        //--------------------------------------------
+
+        //ReverseLS
+        ReverseLS ls = new ReverseLS();
+        head.val = 1;
+        head.next = new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))));
+        ls.reverseList(head);
+
 
     }
 }
