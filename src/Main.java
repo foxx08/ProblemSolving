@@ -72,6 +72,11 @@ public class Main {
         head.next = new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))));
         ls.reverseList(head);
 
+        //InvertBinaryTree
+        InvertBinaryTree bin = new InvertBinaryTree();
+        TreeNode root = new TreeNode(2, new TreeNode(1), new TreeNode(3));
+        bin.invertTree(root);
+
 
     }
 }
