@@ -77,6 +77,7 @@ public class Main {
         TreeNode root = new TreeNode(2, new TreeNode(1), new TreeNode(3));
         bin.invertTree(root);
 
-
+        StoneWeight sw = new StoneWeight();
+        sw.lastStoneWeight(new int[] {2,7,4,1,8,1});
     }
 }
