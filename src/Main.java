@@ -85,6 +85,10 @@ public class Main {
 
         TwoSumII ts = new TwoSumII();
         ts.twoSum(new int[] {1,3,4,5,7,11}, 9);
+        //--------------------------------------------
+
+        BinarySearch bs = new BinarySearch();
+        bs.search(new int[] {-1,0,3,5,9,12}, 9);
 
     }
 }
