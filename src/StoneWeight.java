@@ -20,12 +20,10 @@ public class StoneWeight {
          */
         PriorityQueue<Integer> heap = new PriorityQueue<>();
         for (int stone : stones) heap.add(-1 * stone); //-1 to get a max heap, later convert it back
-        System.out.println(heap);
         while (heap.size() > 1) {
             int y = heap.remove();
             int x = heap.remove();
             if(x != y) heap.add(y - x);
-            System.out.println("while: " + heap);
         }
         if(heap.size() != 0) return -1 * heap.remove();
             else return 0;

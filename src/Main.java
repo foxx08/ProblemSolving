@@ -71,13 +71,20 @@ public class Main {
         head.val = 1;
         head.next = new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))));
         ls.reverseList(head);
+        //--------------------------------------------
 
         //InvertBinaryTree
         InvertBinaryTree bin = new InvertBinaryTree();
         TreeNode root = new TreeNode(2, new TreeNode(1), new TreeNode(3));
         bin.invertTree(root);
+        //--------------------------------------------
 
         StoneWeight sw = new StoneWeight();
         sw.lastStoneWeight(new int[] {2,7,4,1,8,1});
+        //--------------------------------------------
+
+        TwoSumII ts = new TwoSumII();
+        ts.twoSum(new int[] {1,3,4,5,7,11}, 9);
+
     }
 }
