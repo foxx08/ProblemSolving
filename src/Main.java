@@ -89,6 +89,10 @@ public class Main {
 
         BinarySearch bs = new BinarySearch();
         bs.search(new int[] {-1,0,3,5,9,12}, 9);
+        //--------------------------------------------
+
+        ContainsDup cd = new ContainsDup();
+        cd.containsDuplicate(new int[] {2,14,18,22,22});
 
     }
 }
