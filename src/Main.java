@@ -93,6 +93,11 @@ public class Main {
 
         ContainsDup cd = new ContainsDup();
         cd.containsDuplicate(new int[] {2,14,18,22,22});
+        //--------------------------------------------
+
+        SingleNumber sn = new SingleNumber();
+        sn.singleNumber(new int[] {4,1,2,1,2});
+
 
     }
 }
