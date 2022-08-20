@@ -97,7 +97,16 @@ public class Main {
 
         SingleNumber sn = new SingleNumber();
         sn.singleNumber(new int[] {4,1,2,1,2});
+        //--------------------------------------------
 
+        NumberIslands ni = new NumberIslands();
+        char[][] grid = {
+                {'1','1','1','1','0'},
+                {'1','1','0','1','0'},
+                {'1','1','0','0','0'},
+                {'0','0','0','0','0'}
+        };
+        ni.numIslands(grid);
 
     }
 }
