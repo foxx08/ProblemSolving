@@ -4,6 +4,7 @@ public class MergeLists {
       Merge the two lists in a one sorted list.
       The list should be made by splicing together the nodes of the first two lists.
       Return the head of the merged linked list.
+      Source: https://leetcode.com/problems/merge-two-sorted-lists/
        */
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode merge = new ListNode(), current = merge; // current is needed to save the head of the list and return it later

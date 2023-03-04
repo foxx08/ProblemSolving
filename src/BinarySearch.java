@@ -4,6 +4,7 @@ public class BinarySearch {
     and an integer target, write a function to search target in nums.
     If target exists, then return its index. Otherwise, return -1.
     You must write an algorithm with O(log n) runtime complexity.
+    Source: https://leetcode.com/problems/binary-search/
      */
     public int search(int[] nums, int target) {
         int l = 0, r = nums.length-1;

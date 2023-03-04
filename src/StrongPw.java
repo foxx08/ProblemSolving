@@ -13,6 +13,7 @@ public class StrongPw {
         It does not contain 2 of the same character in adjacent positions -D
             (i.e., "aab" violates this condition, but "aba" does not).
     Given a string password, return true if it is a strong password. Otherwise, return false.
+    Source: https://leetcode.com/problems/strong-password-checker-ii/
      */
 
     public boolean strongPasswordCheckerII(String password) {
